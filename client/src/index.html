@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Desarrollo Sigma</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="app" class="container">
+        <header class="mt-50 mb-30">
+            <img src="https://sigma-studios.s3-us-west-2.amazonaws.com/test/sigma-logo.png" alt="Logo Sigma">
+        </header>
+        <h3 class="col-12 col-md-12 mb-30"><strong>Prueba de Desarrollo Sigma</strong></h3>
+        <div class="col-12 col-md-12 subtitle mb-30">
+            <p class="col-12 col-md-8">
+                <strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                </strong>                
+            </p>
+        </div>
+        <div class="container mb-80 col-md-10">
+            <div class="row">
+                <img class="col-12 col-md-6 justify-center" width="80%" height="80%"
+                    src="https://sigma-studios.s3-us-west-2.amazonaws.com/test/sigma-image.png" alt="Imagen lateral">
+                <div id="form-container" class="container col-12 col-md-6">
+                    <form id="contactForm" class="col-12">
+                        <div class="form-group">
+                            <label for="txtDepartamento">Departamento*</label>
+                            <select required class="form-control select-css" name="state" id="txtDepartamento" placeholder="Antioquía" aria-describedby="Departamento">
+                                <option>Seleccione ....</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtCiudad">Ciudad*</label>
+                            <select required class="form-control select-css" name="city" id="txtCiudad" placeholder="Antioquía" aria-describedby="Ciudad">
+                                <option>Seleccione ....</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtNombre">Nombre*</label>
+                            <input type="text" name="name" class="form-control" id="txtNombre"
+                                placeholder="Pepito de Jesús" aria-describedby="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtEmail">Correo*</label>
+                            <input type="email" name="email" class="form-control" id="txtEmail"
+                                placeholder="pepitodejesus@gmail.com" aria-describedby="Correo" required>
+                        </div>
+                        <button id="submit" type="submit" class="btn btn-danger mx-auto">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
